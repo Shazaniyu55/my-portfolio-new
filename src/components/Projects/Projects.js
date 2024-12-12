@@ -8,6 +8,7 @@ import editor from "../../Assets/Projects/atwap.png";
 import chatify from "../../Assets/Projects/qmap.png";
 import suicide from "../../Assets/Projects/quickmed.png";
 import bitsOfCode from "../../Assets/Projects/shop.png";
+import EventApp from "../../Assets/Projects/app.png";
 
 function Projects() {
   return (
@@ -73,6 +74,19 @@ function Projects() {
               description="Quickmed webapp for the quickmed mobile app"
               ghLink=""
               demoLink="https://www.quickmedng.com/"
+              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
+            />
+          </Col>
+
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={EventApp}
+              isBlog={false}
+              title="Event App"
+              description="Event Booking  mobile app for Android and IOS"
+              ghLink="https://github.com/Shazaniyu55/codegeek"
+              demoLink=""
               // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
             />
           </Col>
