@@ -8,7 +8,9 @@ import editor from "../../Assets/Projects/atwap.png";
 import chatify from "../../Assets/Projects/qmap.png";
 import suicide from "../../Assets/Projects/quickmed.png";
 import bitsOfCode from "../../Assets/Projects/shop.png";
-import EventApp from "../../Assets/Projects/app.png";
+import swagger from "../../Assets/Projects/swagger.png";
+import hacked from "../../Assets/Projects/hacked.png";
+import adain from "../../Assets/Projects/adain.png";
 
 function Projects() {
   return (
@@ -81,15 +83,44 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={EventApp}
+              imgPath={swagger}
               isBlog={false}
-              title="Event App"
-              description="Event Booking  mobile app for Android and IOS"
-              ghLink="https://github.com/Shazaniyu55/codegeek"
-              demoLink=""
+              title="Adnet CRM"
+              description="Adnet nodejs API documentation UI"
+              ghLink=""
+              demoLink="https://mail-crm.vercel.app/api-docs/"
               // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
             />
           </Col>
+
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={hacked}
+              isBlog={false}
+              title="Hacked8 Online School"
+              description="The hacked8 official webapp"
+              ghLink=""
+              demoLink="https://hacked.adaintech.com/"
+              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
+            />
+          </Col>
+
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={adain}
+              isBlog={false}
+              title="Adain website"
+              description="The Adain official webapp"
+              ghLink=""
+              demoLink="https://www.adaintech.com/"
+              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
+            />
+          </Col>
+
+
+       
 
           
         </Row>
