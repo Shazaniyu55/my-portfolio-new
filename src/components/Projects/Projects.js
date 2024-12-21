@@ -29,7 +29,7 @@ function Projects() {
               imgPath={chatify}
               isBlog={false}
               title="QMAP"
-              description="Multi level affiliate marketing web app"
+              description="Multi level affiliate marketing web app with referall system and payment integration."
               ghLink=""
               demoLink="https://qmap.adaintech.com/"
             />
@@ -40,7 +40,7 @@ function Projects() {
               imgPath={bitsOfCode}
               isBlog={false}
               title="Latoyaandstyles"
-              description="Fashion Ecommerce webapp."
+              description="Fashion Ecommerce webapp. where people buy clothes."
               ghLink=""
               demoLink="https://www.latoyaandstyles.com/"
             />
@@ -51,7 +51,7 @@ function Projects() {
               imgPath={editor}
               isBlog={false}
               title="ATWAP"
-              description="Online Tax Collation software"
+              description="Online Tax Collation software for the ATWAP association."
               ghLink=""
               demoLink="https://atwap.vercel.app/"              
             />
@@ -73,7 +73,7 @@ function Projects() {
               imgPath={suicide}
               isBlog={false}
               title="Quickmed"
-              description="Quickmed webapp for the quickmed mobile app"
+              description="Quickmed webapp for the quickmed mobile app and quickmed blog"
               ghLink=""
               demoLink="https://www.quickmedng.com/"
               // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
@@ -85,10 +85,10 @@ function Projects() {
             <ProjectCard
               imgPath={swagger}
               isBlog={false}
-              title="Adnet CRM"
-              description="Adnet nodejs API documentation UI"
+              title="Adnet "
+              description="Adnet is a predictive business analytic software made with NextJs and nodejs Backend this is the backend server API documentation interface."
               ghLink=""
-              demoLink="https://mail-crm.vercel.app/api-docs/"
+              demoLink="https://adnet-api.vercel.app/api-docs/"
               // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
             />
           </Col>
@@ -99,7 +99,7 @@ function Projects() {
               imgPath={hacked}
               isBlog={false}
               title="Hacked8 Online School"
-              description="The hacked8 official webapp"
+              description="The hacked8 official webapp where hacked8 student can register and get free online courses."
               ghLink=""
               demoLink="https://hacked.adaintech.com/"
               // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
@@ -112,7 +112,7 @@ function Projects() {
               imgPath={adain}
               isBlog={false}
               title="Adain website"
-              description="The Adain official webapp"
+              description="The Adain official product webapp webapp"
               ghLink=""
               demoLink="https://www.adaintech.com/"
               // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
