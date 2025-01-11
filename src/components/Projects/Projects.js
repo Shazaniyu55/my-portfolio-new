@@ -11,6 +11,9 @@ import bitsOfCode from "../../Assets/Projects/shop.png";
 import swagger from "../../Assets/Projects/swagger.png";
 import hacked from "../../Assets/Projects/hacked.png";
 import adain from "../../Assets/Projects/adain.png";
+import salt from "../../Assets/Projects/salt.png";
+import game from "../../Assets/Projects/game.png";
+
 
 function Projects() {
   return (
@@ -115,6 +118,32 @@ function Projects() {
               description="The Adain official product webapp webapp"
               ghLink=""
               demoLink="https://www.adaintech.com/"
+              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
+            />
+          </Col>
+
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={salt}
+              isBlog={false}
+              title="Mind The Salt website"
+              description="Mind the salt is a health informative webapp where it give you information about salt and its effect on the body, features like salt tracker, login register, and blogs "
+              ghLink=""
+              demoLink="https://mind-the-salt-web.vercel.app/"
+              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
+            />
+          </Col>
+
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={game}
+              isBlog={false}
+              title="Mind The Salt Trivia Game"
+              description="This is a fun interactive quizz game that teaches about salt consumption and its content"
+              ghLink=""
+              demoLink="https://mind-the-salt-trivia.vercel.app/"
               // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
             />
           </Col>
