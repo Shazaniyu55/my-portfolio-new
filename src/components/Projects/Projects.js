@@ -104,7 +104,7 @@ function Projects() {
               title="Hacked8 Online School"
               description="The hacked8 official webapp where hacked8 student can register and get free online courses."
               ghLink=""
-              demoLink="https://hacked.adaintech.com/"
+              demoLink="https://hacked8-one.vercel.app/home"
               // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
             />
           </Col>
