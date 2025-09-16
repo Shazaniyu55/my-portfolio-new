@@ -12,7 +12,7 @@ import adain from "../../Assets/Projects/adain.png";
 import salt from "../../Assets/Projects/salt.png";
 import game from "../../Assets/Projects/game.png";
 import royale from "../../Assets/Projects/royale.PNG";
-
+import charity from "../../Assets/Projects/lago.jpeg";
 
 function Projects() {
   return (
@@ -147,6 +147,18 @@ function Projects() {
               description="This is a fun interactive quizz game that teaches about salt consumption and its content"
               ghLink=""
               demoLink="https://mind-the-salt-trivia.vercel.app/"
+              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
+            />
+          </Col>
+
+           <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={charity}
+              isBlog={false}
+              title="Hearts United"
+              description="This is a charity android that helps people to donate to the less privileged"
+              ghLink="https://github.com/Shazaniyu55/sync.git"
+              demoLink=""
               // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
             />
           </Col>
