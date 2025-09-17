@@ -156,7 +156,7 @@ function Projects() {
               imgPath={charity}
               isBlog={false}
               title="Hearts United"
-              description="This is a charity android that helps people to donate to the less privileged"
+              description="This is a charity android app that helps people to donate to the less privileged"
               ghLink="https://github.com/Shazaniyu55/sync.git"
               demoLink="https://github.com/Shazaniyu55/sync.git"
               // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
